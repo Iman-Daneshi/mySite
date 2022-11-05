@@ -43,6 +43,9 @@ INSTALLED_APPS = [
 
     # my_apps
     'blog.apps.BlogConfig',
+
+    # Third party
+    'taggit',
 ]
 
 MIDDLEWARE = [
