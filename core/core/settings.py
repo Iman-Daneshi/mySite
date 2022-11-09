@@ -42,6 +42,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'django.contrib.sites',
     'django.contrib.sitemaps',
+    # searching in postgresql
+    'django.contrib.postgres',
 
     # my_apps
     'blog.apps.BlogConfig',
